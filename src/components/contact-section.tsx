@@ -30,7 +30,7 @@ export function ContactSection() {
     <section id="contact" className="py-20 md:py-32 px-6">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-secondary mb-4">Contact Us</h2>
+          <h2 className="font-serif text-4xl md:text-5xl font-bold text-primary mb-4">Contact Us</h2>
           <p className="text-muted-foreground text-lg">We are happy to assist you</p>
         </div>
 
@@ -75,7 +75,7 @@ export function ContactSection() {
           <Button
             type="submit"
             disabled={isSubmitting}
-            className="w-full h-14 bg-gradient-to-r from-secondary to-secondary/90 hover:from-secondary/90 hover:to-secondary text-secondary-foreground rounded-full text-lg font-bold shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300 disabled:opacity-70"
+            className="w-full h-14 bg-secondary hover:from-secondary/90 hover:to-secondary text-secondary-foreground rounded-full text-lg font-bold shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300 disabled:opacity-70"
           >
             {isSubmitting ? "Sending..." : "Submit"}
           </Button>

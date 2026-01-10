@@ -10,7 +10,7 @@ export function Header() {
             <div>
               <div className="w-36 h-36 md:w-36 md:h-36 relative">
                 <Image
-                  src="logo1.png"
+                  src="/logo1.png"
                   alt="Swastik Devta Vastu Logo"
                   fill
                   className="object-contain"

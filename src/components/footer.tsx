@@ -1,6 +1,10 @@
 export function Footer() {
   return (
-    <footer className="bg-gradient-to-br from-primary via-primary/95 to-primary/90 text-primary-foreground py-16 shadow-2xl">
+<footer className="
+  bg-[oklch(0.97_0.03_85)]
+  py-16
+  shadow-inner
+">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Contact */}

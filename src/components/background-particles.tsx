@@ -2,7 +2,7 @@ export function BackgroundParticles() {
   return (
     <div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
       {/* Gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-background via-muted/30 to-background" />
+      <div className="absolute inset-0 bg-gradient-to-br from-background via-muted/80 to-background" />
 
       {/* Animated particles */}
       <div
