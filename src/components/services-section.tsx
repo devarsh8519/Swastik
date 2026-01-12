@@ -12,13 +12,13 @@ const services = [
   },
   {
     title: "Flat Vastu Consultation",
-    description: "Complete Vastu analysis for homes with practical and easy remedies.",
+    description: "Comprehensive Vastu analysis for residential flats, offering accurate assessment to enhance harmony, balance, and positive energy.",
     price: "₹9,999",
     qrImage: "/home-qr.jpeg",
   },
   {
     title: "Bunglow Vastu Consultation",
-    description: "Complete Vastu analysis for homes with practical and easy remedies.",
+    description: "“Comprehensive Vastu analysis for bungalows, designed to balance energies and enhance peace, health, and success..",
     price: "₹19,999",
     qrImage: "/bunglow-qr.jpeg",
   },
@@ -79,9 +79,8 @@ export function ServicesSection() {
                 <button
                   key={index}
                   onClick={() => setCurrentSlide(index)}
-                  className={`w-3 h-3 rounded-full transition-all ${
-                    index === currentSlide ? "bg-primary w-8" : "bg-border hover:bg-primary/50"
-                  }`}
+                  className={`w-3 h-3 rounded-full transition-all ${index === currentSlide ? "bg-primary w-8" : "bg-border hover:bg-primary/50"
+                    }`}
                   aria-label={`Go to service ${index + 1}`}
                 />
               ))}
@@ -95,6 +94,10 @@ export function ServicesSection() {
             </button>
           </div>
         </div>
+        <p className="mt-12 text-center text-sm text-muted-foreground">
+  <span className="font-medium">Note:</span> Remedies and material charges, if required,
+  will be billed separately and are not included in the consultation fees.
+</p>
       </div>
     </section>
   )

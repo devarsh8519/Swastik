@@ -7,7 +7,7 @@ export function FloatingButtons() {
       <a href="tel:+919601283518" className="fixed right-6 bottom-28 z-50 group" aria-label="Call us">
         <div 
           className="w-16 h-16 rounded-full shadow-2xl bg-white flex items-center justify-center hover:scale-110 transition-transform duration-300 animate-float">
-          <Image src="phone.png" alt="Call" width={40} height={40} />
+          <Image src="/phone.png" alt="Call" width={40} height={40} />
         </div>
       </a>
 
