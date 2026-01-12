@@ -7,7 +7,8 @@ export function Navigation() {
   }
 
   return (
-    <nav className="sticky top-0 z-50 bg-gradient-to-r from-primary via-primary/95 to-primary/90 shadow-lg border-b-2 border-primary-foreground/10 backdrop-blur-sm">
+    <nav className="bg-primary backdrop-blur-sm
+">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-center gap-2 md:gap-8 py-4 overflow-x-auto scrollbar-hide">
           {[

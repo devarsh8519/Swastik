@@ -39,7 +39,7 @@ export function ServiceCard({ title, description, price, qrImage }: ServiceCardP
 
         <Button
           onClick={scrollToPayment}
-          className="w-full bg-gradient-to-r from-secondary to-secondary/90 hover:from-secondary/90 hover:to-secondary text-secondary-foreground rounded-full py-6 text-lg font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+          className="w-full bg-secondary hover:from-secondary/90 hover:to-secondary text-secondary-foreground rounded-full py-6 text-lg font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
         >
           Make Payment
         </Button>
